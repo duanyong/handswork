@@ -1,5 +1,5 @@
 # Handswork
-Handswork是Java语言的架手架，封装常用的类和方法，后期将集成常用的web窗口。
+Handswork是Java语言的架手架，封装常用的类和方法，后期将集成常用的web容器。
 
 ## usage
 ```
