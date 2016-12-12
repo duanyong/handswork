@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<metadata>
+<metadata modelVersion="1.1.0">
   <groupId>me.duanyong</groupId>
   <artifactId>handswork</artifactId>
+  <version>0.1-SNAPSHOT</version>
   <versioning>
-    <versions>
-      <version>0.1-SNAPSHOT</version>
-    </versions>
-    <lastUpdated>20161212085346</lastUpdated>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <lastUpdated>20161212095200</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.1-SNAPSHOT</value>
+        <updated>20161212095200</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.1-SNAPSHOT</value>
+        <updated>20161212095200</updated>
+      </snapshotVersion>
+    </snapshotVersions>
   </versioning>
 </metadata>
