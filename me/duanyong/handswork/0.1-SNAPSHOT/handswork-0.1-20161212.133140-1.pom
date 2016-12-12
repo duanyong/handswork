@@ -32,17 +32,17 @@
             <plugin>
                 <groupId>com.github.github</groupId>
                 <artifactId>site-maven-plugin</artifactId>
-                <version>0.9</version>
+                <version>0.12</version>
                 <configuration>
                     <message>Maven artifacts for ${project.version}</message>                                   <!-- git commit message -->
                     <noJekyll>true</noJekyll>                                                                   <!-- disable webpage processing -->
-                    <outputDirectory>${project.build.directory}/repository/${project.version}</outputDirectory> <!-- matches distribution management repository url above -->
+                    <outputDirectory>${project.build.directory}/repository</outputDirectory> <!-- matches distribution management repository url above -->
                     <branch>refs/heads/snapshot</branch>                                                        <!-- remote branch name -->
                     <includes>
                         <include>**/*</include>
                     </includes>
-                    <repositoryName>${project.name}</repositoryName>        <!-- github repo name -->
-                    <repositoryOwner>${project.groupId}</repositoryOwner>   <!-- github username -->
+                    <repositoryName>handswork</repositoryName>  <!-- github repo name -->
+                    <repositoryOwner>duanyong</repositoryOwner>   <!-- github username -->
                 </configuration>
                 <executions>
                     <!-- run site-maven-plugin&#039;s &#039;site&#039; target as part of the build&#039;s normal
