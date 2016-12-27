@@ -28,6 +28,6 @@ Handswork是Java语言的架手架，封装常用的类和方法，后期将集�
 
 ## TODO
 1. 通过java-doc生成文档；
-2. 将jetty或者netty集成到此脚手架中；
+2. 将jetty或者netty集成到此脚手架中；（集成jetty）
 3. 将spring-mvc集成到脚手架中；
 4. ...
